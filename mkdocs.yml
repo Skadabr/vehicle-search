@@ -1,0 +1,105 @@
+site_name: Vehicle Searches
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - def_list
+  - pymdownx.magiclink
+
+nav:
+  - Home: index.md
+  - "Vehicle Search: Armoured Collection Van (CIT) — 2026-04-11":
+    - Overview: 2026-04-11-armoured-van/index.md
+    - "2015 Fiat Ducato 130 Gepanzert B6 Geldtransporter": 2026-04-11-armoured-van/fiat-ducato-b6-autoline-25091213.md
+    - "2011 Mercedes-Benz Axor 1824 CIT Trunk Vehicle": 2026-04-11-armoured-van/mercedes-axor-1824-gericia.md
+    - "2013 Mercedes-Benz Sprinter CIT (Cash-in-Transit)": 2026-04-11-armoured-van/mercedes-sprinter-cit-gericia.md
+    - "2013 Mercedes-Benz Vario 816 B4 Armoured": 2026-04-11-armoured-van/mercedes-vario-816-b4-truckscout.md
+    - "VW T5/T6 Geldtransporter (Armoured Money Transport)": 2026-04-11-armoured-van/vw-t5-t6-geldtransporter-kleinanzeigen.md
+  - "Vehicle Search: 8-9 Seat Minibus (Trafic-size) — 2026-04-10 (re-run + Facebook pass 2026-04-12)":
+    - Overview: 2026-04-10-minibus-9seat/index.md
+    - "2014 Citroen Dispatch 2.0 HDi 125 L2 SX 9 Seat — KU14 OAP": 2026-04-10-minibus-9seat/citroen-dispatch-137124555796.md
+    - "2014 Citroen Dispatch 2.0 HDi SX Combi L2H1 9 Seat — SY64 XXH": 2026-04-10-minibus-9seat/citroen-dispatch-236723463717.md
+    - "2014 Citroen Dispatch 2.0 HDi Combi L1H1 SX Euro 5 9 Seat — WN14 NYW": 2026-04-10-minibus-9seat/citroen-dispatch-267615335808.md
+    - "2014 Citroen Dispatch 2.0 HDi 125 L1 SX 9 Seat — **63 ***": 2026-04-10-minibus-9seat/citroen-dispatch-397634894391.md
+    - "2013 Citroen Dispatch 2.0 HDi 9 Seat — GRZ8768": 2026-04-10-minibus-9seat/citroen-dispatch-GRZ8768.md
+    - "2014 Citroen Dispatch 2.0 HDi 9 Seat — KT63DWO": 2026-04-10-minibus-9seat/citroen-dispatch-KT63DWO.md
+    - "2014 Ford Tourneo Custom 300 LTD Trend 2.2 TDCi 9 Seat — LK14BGU": 2026-04-10-minibus-9seat/ford-tourneo-LK14BGU.md
+    - "2015 Ford Tourneo Custom Limited 2.2 TDCi 9 Seat — SV15HZM": 2026-04-10-minibus-9seat/ford-tourneo-SV15HZM.md
+    - "2018/68 Ford Tourneo Custom Titanium 9 Seat — YC68 UHU": 2026-04-10-minibus-9seat/ford-tourneo-custom-1511844244.md
+    - "2015 Ford Tourneo Custom Limited 2.2 TDCi 9 Seater — reg TBD (privacy-blurred)": 2026-04-10-minibus-9seat/ford-tourneo-custom-756140874188702.md
+    - "2008 Mercedes-Benz Vito 109CDI Traveliner 9 Seat — S****HV": 2026-04-10-minibus-9seat/mercedes-vito-202604021258858.md
+    - "2013 Mercedes-Benz Vito 9 Seat (Auto) — LM13UVO": 2026-04-10-minibus-9seat/mercedes-vito-LM13UVO.md
+    - "2017 Nissan NV300 9-Seater Minibus — KS17OHD": 2026-04-10-minibus-9seat/nissan-nv300-KS17OHD.md
+    - "2015 Peugeot Expert Tepee 2.0 HDi 130 Comfort L1 9 Seat — SJ15 YUO": 2026-04-10-minibus-9seat/peugeot-expert-SJ15YUO.md
+    - "2015 Renault Trafic 1.6 dCi 27 Business 9 Seat — M****NJ": 2026-04-10-minibus-9seat/renault-trafic-202603180815807.md
+    - "2013 Renault Trafic 2.0 TD dCi LL29 Sport 9 Seat — E****KO": 2026-04-10-minibus-9seat/renault-trafic-202604051308961.md
+    - "2014 Renault Trafic 2.0 dCi 9 Seat — AE14SVG": 2026-04-10-minibus-9seat/renault-trafic-AE14SVG.md
+    - "2019 Renault Trafic LL29 Sport Nav LWB 9 Seat — DM19 KXT": 2026-04-10-minibus-9seat/renault-trafic-DM19KXT.md
+    - "2019 Renault Trafic 1.6 dCi 9 Seat — EG68 HTT": 2026-04-10-minibus-9seat/renault-trafic-EG68HTT.md
+    - "2016 Renault Trafic 1.6 dCi Eco 9 Seat Minibus LWB Euro 6 — MJ66 YGG": 2026-04-10-minibus-9seat/renault-trafic-MJ66YGG.md
+    - "2016 Renault Trafic Sport SL27 dCi 9 Seat — MT16 YZP": 2026-04-10-minibus-9seat/renault-trafic-MT16YZP.md
+    - "2012 Renault Trafic Sport 2.0 DCI LWB 9 Seat — SY12TXD": 2026-04-10-minibus-9seat/renault-trafic-SY12TXD.md
+    - "2016/66 Vauxhall Vivaro LWB 1.6 CDTi BiTurbo 9 Seat — reg TBD": 2026-04-10-minibus-9seat/vauxhall-vivaro-1512268558.md
+    - "2017 Vauxhall Vivaro 2900 COMBI 9 Seat — AF67LWH": 2026-04-10-minibus-9seat/vauxhall-vivaro-AF67LWH.md
+    - "2018 Vauxhall Vivaro 1.6 CDTi 9 Seat — DS68SYG": 2026-04-10-minibus-9seat/vauxhall-vivaro-DS68SYG.md
+    - "2015 Vauxhall Vivaro CDTi LWB 9 Seat — DU65MKG": 2026-04-10-minibus-9seat/vauxhall-vivaro-DU65MKG.md
+    - "2018 Vauxhall Vivaro 1.6 CDTi 9 Seat Combi — KU68 VPN": 2026-04-10-minibus-9seat/vauxhall-vivaro-KU68VPN.md
+  - "Vehicle Search: 4-Door Pickup Truck — 2026-04-09 (Updated)":
+    - Overview: 2026-04-09-pickup/index.md
+    - "2007 Ford Ranger Thunder — Reg Unknown": 2026-04-09-pickup/ford-ranger-202602169973818.md
+    - "2010 Ford Ranger 2.5 Thunder — LJ60 LDK": 2026-04-09-pickup/ford-ranger-LJ60LDK.md
+    - "2020 Ford Ranger Wildtrak EcoBlue — Reg Unknown (Brierley Hill)": 2026-04-09-pickup/ford-ranger-ecoblue-brierleyhill.md
+    - "2011 Ford Ranger 2.5 — Reg Unknown (Hurlford, Scotland)": 2026-04-09-pickup/ford-ranger-gumtree-hurlford.md
+    - "2004 Ford Ranger XLT Double Cab — Reg Unknown (Badminton)": 2026-04-09-pickup/ford-ranger-xlt-gumtree-badminton.md
+    - "2014 Isuzu D-Max Yukon — Reg Unknown (Chichester)": 2026-04-09-pickup/isuzu-dmax-cats-chichester.md
+    - "2004 Mitsubishi L200 4Life Double Cab — Reg Unknown (Dewsbury)": 2026-04-09-pickup/mitsubishi-l200-4life-202508125360340.md
+    - "2012 Mitsubishi L200 4Work DC — YX12 WYB (eBay)": 2026-04-09-pickup/mitsubishi-l200-4work-YX12WYB.md
+    - "2010 Mitsubishi L200 4Work Double Cab — Reg Unknown (Witney)": 2026-04-09-pickup/mitsubishi-l200-4work-gumtree-witney.md
+    - "2006 Mitsubishi L200 Trojan — DG56 ORJ": 2026-04-09-pickup/mitsubishi-l200-DG56ORJ.md
+    - "2007 Mitsubishi L200 Trojan K74 — DN56 UFG": 2026-04-09-pickup/mitsubishi-l200-DN56UFG.md
+    - "2012 Mitsubishi L200 Warrior — DN61 DLZ": 2026-04-09-pickup/mitsubishi-l200-DN61DLZ.md
+    - "2013 Mitsubishi L200 Barbarian — KY62 VOH": 2026-04-09-pickup/mitsubishi-l200-KY62VOH.md
+    - "2006 Mitsubishi L200 Animal DI-D DC — WV56 TKK": 2026-04-09-pickup/mitsubishi-l200-WV56TKK.md
+    - "2015 Mitsubishi L200 Walkinshaw Performance — YX15 NKS": 2026-04-09-pickup/mitsubishi-l200-YX15NKS.md
+    - "2008 Mitsubishi L200 Diamond Auto — Reg Unknown (F***CS)": 2026-04-09-pickup/mitsubishi-l200-auto-202603261029888.md
+    - "2010 Mitsubishi L200 Barbarian DC — Reg Unknown (Stoke)": 2026-04-09-pickup/mitsubishi-l200-barbarian-202604051307239.md
+    - "2014 Mitsubishi L200 Barbarian — VK63 YJU (Edinburgh, Gumtree)": 2026-04-09-pickup/mitsubishi-l200-barbarian-VK63YJU.md
+    - "2010 Mitsubishi L200 Barbarian DC — Reg Unknown (Northampton)": 2026-04-09-pickup/mitsubishi-l200-catd-northampton.md
+    - "2005 Mitsubishi L200 Trojan Double Cab — Reg Unknown (Dewsbury)": 2026-04-09-pickup/mitsubishi-l200-trojan-202602250217590.md
+    - "2007 Mitsubishi L200 Trojan — Reg Unknown (Nottingham)": 2026-04-09-pickup/mitsubishi-l200-trojan-202603040410201.md
+    - "2011 Mitsubishi L200 Trojan — FV11 ZXT (Harrow, Gumtree)": 2026-04-09-pickup/mitsubishi-l200-trojan-FV11ZXT.md
+    - "2007 Mitsubishi L200 Warrior — FD07 EYO (Harrow, Gumtree)": 2026-04-09-pickup/mitsubishi-l200-warrior-FD07EYO.md
+    - "2006 Mitsubishi L200 Warrior LWB — FL56 NGE (Redbridge, Gumtree)": 2026-04-09-pickup/mitsubishi-l200-warrior-FL56NGE.md
+    - "2014 Nissan Navara Tekna — Reg Unknown (Chertsey)": 2026-04-09-pickup/nissan-navara-tekna-chertsey.md
+    - "2014 Nissan Navara Visia — Reg Unknown (Eastleigh)": 2026-04-09-pickup/nissan-navara-visia-eastleigh.md
+    - "2011 Toyota Hilux — GF11 THG": 2026-04-09-pickup/toyota-hilux-GF11THG.md
+    - "2011 Toyota Hilux HL3 — SM61 OLO": 2026-04-09-pickup/toyota-hilux-SM61OLO.md
+    - "2007 Toyota Hilux HL2 — WU07 TXL": 2026-04-09-pickup/toyota-hilux-WU07TXL.md
